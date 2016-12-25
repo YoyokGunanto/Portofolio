@@ -1,0 +1,234 @@
+body{
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+}
+.pagwarp{
+    width: 100%;
+    height: auto;
+    font-family: 'Lato', Calibri, Arial, sans-serif;
+	color: #fff;
+	background-color: #a6dab4;
+    padding-bottom: 30px; 
+}
+
+/*============HEADER==============*/
+.header{
+    width: 100%;
+    height: 460px;
+/*    font-size: 40px;*/
+    background-color: #9ad2a9;
+}
+.nav{
+    width: 100%;
+    height: 50px;
+    float: left;
+    position: fixed;
+    background-color: #80bf92;
+    box-shadow: 0 2px 1px #80bf92;
+    line-height: 50px;
+    z-index: 2;
+}
+.p{
+    float: left; 
+    width: 35px; 
+    margin: 8px 150px auto;"
+}
+.judul{
+    font-family: Verdana, Geneva, sans-serif;
+    float: left;
+    margin: 0px -150px;
+}
+.judul>a:hover{
+    background-color: #70b483;
+    cursor: pointer;
+}
+.fa-search{
+    float: left;
+    margin-left: 550px;
+}
+.search{
+    margin-top: 15px;
+    width: 200px;
+    height: 28px;
+    padding: 0px 20px;
+    border-radius: 5px;
+    color: #858888;
+}
+.logout{
+    float: right;
+    margin: -40px 150px;
+}
+.logout:hover{
+    cursor: pointer;
+    color: aliceblue;
+}
+.sampul{
+    width: 80%;
+    height: 400px;
+    margin: 50px 10%;
+    float: left;
+    border-radius: 3px;
+    background: url('../assets/foto/sampul.jpg');
+    position: absolute;
+    z-index: 1;
+}
+.profil{
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin: 170px 20px;
+}
+.profil:hover{
+    width: 400px;
+    height: 400px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.nama{
+    float: left;
+    margin: 250px 5px; 
+}
+h4{
+    font-family: Arial;
+    font-size: 30px;
+    float: left;
+    -webkit-text-fill-color:#ffffff;
+    -webkit-text-stroke: 0.5px #000000;
+}
+.nama>h3{
+    float: left;
+    margin: 75px -220px;
+    -webkit-text-fill-color:#ffffff;
+    -webkit-text-stroke: 0.5px #000000;
+}
+
+
+/*==============CONTENT===============*/
+.content{
+    width: 80%;
+    height: auto;
+    margin: 10px 11%;
+/*    background-color: blue;*/
+}
+
+
+/*==============SIDEBAR===============*/
+.sidebar{
+    width: 300px;
+    height: auto;
+    float: left;
+    border-right: solid 1px  white;
+/*    background-color: aqua;*/
+}
+.menu>li{
+    height: 50px;
+    margin-top: 5px;
+    padding-left: 10px;
+    line-height: 50px;
+    list-style: none;
+    font-size: 22px;
+}
+.menu>li>a:hover{
+    color: #6eb480;
+    transition: 0.2s;
+    cursor: pointer;
+    font-size: 30px;
+}
+
+
+/*==============PAGE===============*/
+.page{
+/*    background-color: #e3f1e7;*/
+    width: 70%;
+    margin: 10px 5px;
+    float: left;
+    height: auto;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 3px;
+    color: black;
+    background-color: #ffffff;
+}
+.block{
+    width: 100%;
+    height: auto;
+    padding-top: 10px;
+}
+.block-small{
+    height: auto;
+    padding: 20px;
+}
+.rata-kiri{
+    text-align: left;
+    line-height: 40px;
+/*    margin-left: 20px;*/
+}
+#halaman-page{
+    width: 90%;
+    margin: 0px 5%;
+/*    background-color: #ffffff;*/
+}
+
+
+/*==============PROFIL===============*/
+.foto{
+    border-radius: 3px;
+    border: solid 5px #ede6e6;
+}
+.label-left{
+    width: 50%; 
+    float: left; 
+    text-align: right; 
+    line-height: 40px;
+}
+.label-right{
+    width: 49%; 
+    float: right; 
+    text-align: left;
+    line-height: 40px;
+}
+
+/*===============SEKOLAH===============*/
+
+/*===============KEAHLIAN===============*/
+
+/*===============GALERI===============*/
+.foto-galeri{
+/*    width: 47.5%;*/
+    width: 30%;
+    float: left;
+    border: solid 3px #ede6e6;
+    margin: 3px 5px;
+}
+.video-galeri{
+    width: 47.5%;
+/*    width: 30%;*/
+    float: left;
+    border: solid 3px #ede6e6;
+    margin: 3px 5px;
+}
+.foto-galeri:hover{
+    cursor: pointer;
+    border: solid 3px #a7d4a7;
+    transition: 1s;
+}
+.song{
+    width: 50%;
+    height: 30px;
+    float: left;
+    margin: 0px;
+}
+.audio{}
+
+.clear{
+    clear: both;
+}
+
+.footer{
+    width: 100%;
+    height: 50px;
+    float: left;
+    background-color: #80bf92;
+    line-height: 15px;
+    text-align: center;
+}

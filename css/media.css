@@ -1,0 +1,234 @@
+/*media queries*/
+/*jika media berukuran 980px atau kurang*/
+@media screen and (max-width: 980px){
+    /*=========HEADER========*/
+    .header{
+        height: 360px;
+    }
+    .nav{
+        position: fixed;
+        z-index: none;
+    }
+    .p{
+        margin: 8px 20px auto;
+    }
+    .judul{
+        font-size: 25px;
+        margin: 0px -17px auto;
+    }
+    .fa-search{
+        margin-left: 530px;
+    }
+    .search{
+        font-size: 12px;
+        width: 150px;
+    }
+    .logout{
+        margin: 4px 22px;
+        font-size: 12px;
+    }
+    .sampul{
+        width: 80%;
+        margin: 50px 10%;
+        height: 300px;
+        position: static;
+        z-index: 0;
+    }
+    .profil{
+        width: 150px;
+        height: 150px;
+        margin: 35px 310px;
+    }
+    .profil:hover{
+        width: 150px;
+        height: 150px;
+    }
+    .nama{
+        margin: -30px 313px;
+        font-size: 15px;
+        width: 200px;
+    }
+    h4{
+        font-size: 20px;
+    }
+    .nama>h3{
+        margin: -20px 20px;
+    }
+    
+    /*========CONTENT============*/
+    .content{
+        width: 100%;
+        margin: 0px;
+    }
+    /*=========SIDEBAR===========*/
+    .sidebar{
+        width: 25%;;
+        margin: -20 0;
+/*
+        width: 100%;
+        margin: -35px 0px;
+*/
+    }
+    .menu>li{
+        width: 100%;
+        text-align: center;
+        margin: -5px -25px;
+        padding: 0px;
+        font-size: 18px;
+    }
+    .menu>li>a:hover{
+        font-size: 25px;
+    }
+    .page{
+        width: 74%;
+        margin: -40px 0px;
+    }
+    #halaman-page{
+        font-size: 15px;
+    }
+    pre{
+        width: 100%;
+    }
+    #halaman-page>.block>h1{
+        font-size: 25px
+    }
+    
+    /*===========PROFIL==========*/
+    .label-left, .label-right{
+        font-size: 14px;
+    }
+    
+    /*===========GALERI==========*/
+    .rata-kiri>pre>img{
+        margin: 0px;
+        width: 550px;
+    }
+    
+    /*===========GALERI==========*/
+    .video-galeri{
+        width: 47%;
+    }
+}
+/*jika berukuran 700px atau kurang*/
+@media screen and (max-width: 700px){
+    .header{
+        height: auto;
+/*        background-color: red;*/
+    }
+    .judul{
+/*        display: none;*/
+    }
+    .fa-search{
+        display: none;
+    }
+    .sampul{
+        margin: 50 0;
+        width: 100%
+    }
+    .profil{
+        margin-top: 80px;
+        margin-left: 170px;
+    }
+    .nama{
+        float: left;
+        margin: -140 370;
+    }
+    h4{
+        font-size: 17px;
+    }
+    .nama>h3{
+        margin: -10 0;
+        font-size: 17px;
+    }
+    
+/*    CONTENT*/
+    .content{
+        
+    }
+/*    SIDEBAR*/
+    .sidebar{
+        width: 100%;   
+        margin: 0;
+    }
+    .menu>li{font-size: 15;}
+    .menu>li>a:hover{font-size: 17;}
+/*    PAGE*/
+    .page{
+        width: 100%;
+        margin: 0;
+    }
+/*    PROFIL*/
+}
+/*jika berukuran 480px atau kurang*/
+@media screen and (max-width: 480px){
+/*    HEADER*/
+    .header{
+/*        background-color: red;*/
+    }
+    .nav{
+        height: 40px;
+    }
+    header>.nav>img{
+        margin-top: 3px;
+    }
+    .judul{
+        display: none;
+    }
+    .logout{
+        display: none;
+    }
+    .sampul{
+        width: 100;
+        height: 100;
+        margin: 70 50;
+    }
+    .profil{
+        width: 100;
+        height: 100;
+        margin: 0;
+    }
+    .profil:hover{
+        width: 100;
+        height: 100;
+    }
+    .nama{
+        margin: -110 120;
+    }
+    .nama>h4{
+        font-size: 17px;
+    }
+    .nama>h3{
+        font-size: 16px;
+        margin: -41 130;
+    }
+    .sidebar{
+        
+    }.menu{
+        font-size: 15px;
+    }
+    .menu>li>a:hover{
+        font-size: 16px;
+    }
+/*    PROFIL*/
+/*    KEAHLIAN*/
+    .rata-kiri>pre>img{
+        margin: -20;
+        width: 100%;
+    }
+/*    GALERI*/
+    .foto-galeri{
+        width: 100%;
+        margin: 3 -3;
+    }
+    .song{
+        width: 100%;
+        margin: 0;
+    }
+    .audio{
+        width: 100%;
+    }
+    .video-galeri{
+        width: 100%;
+        margin: 3 -3;
+    }
+}
